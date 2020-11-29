@@ -25,6 +25,7 @@ public class BarcodeData {
         return price;
     }
 
+    //What am I doing
     public void setPrice(int price) {
         this.price = price;
     }

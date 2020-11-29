@@ -55,7 +55,7 @@ public class ShoppingSessionActivity extends AppCompatActivity implements DatePi
     SimpleDateFormat simpleDateFormatter;
     ArrayList<String> groceryStoreList = new ArrayList<>();
     FirestoreRepository firestoreRepository = new FirestoreRepository();
-
+    //What am I doing
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

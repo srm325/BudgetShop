@@ -33,6 +33,7 @@ public class ExpenseAdapter extends FirestoreRecyclerAdapter<Categories, Expense
 
     class ExpenseHolder extends RecyclerView.ViewHolder{
         ImageView categoryIcon;
+        //What am I doing
         TextView categoryName;
         TextView budgeted;
         TextView spent;

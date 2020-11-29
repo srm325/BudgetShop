@@ -36,6 +36,7 @@ public class AddEntryActivity extends AppCompatActivity implements DatePickerDia
         setContentView(R.layout.activity_add_entry);
 
         //initialize view and global variables
+        //What am I doing
         TextView entryTypeTxtView = findViewById(R.id.add_entry_title);
         TextView categoryTypeTxtView = findViewById(R.id.choose_category);
         EditText description = findViewById(R.id.entry_description);

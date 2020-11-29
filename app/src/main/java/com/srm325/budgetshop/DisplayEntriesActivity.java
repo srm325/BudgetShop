@@ -35,6 +35,7 @@ public class DisplayEntriesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_display_entries);
 
         getSupportActionBar().setTitle("");
+        //What am I doing
 
         TextView categoryTxtView = findViewById(R.id.entries_category_name);
         budget = findViewById(R.id.entries_budget);

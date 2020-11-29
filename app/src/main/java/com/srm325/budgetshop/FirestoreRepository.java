@@ -28,7 +28,7 @@ public class FirestoreRepository {
 
     public void createCategoryAndAddEntry(String categoryName, String categoryBudget, boolean hasContent, boolean isExpense,  String entryDescription, double entryAmount, Date entryDate ){
         Categories category = new Categories(categoryName, categoryBudget, hasContent, isExpense);
-
+//What am I doing
         if(isExpense){
             category.setCategorySpent(String.valueOf(entryAmount));
             category.setCategoryRemaining("0");

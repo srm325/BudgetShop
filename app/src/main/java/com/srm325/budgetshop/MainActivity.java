@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //WTF
         setContentView(R.layout.activity_main);
 
         expenseButton = findViewById(R.id.expense_tabbutton);

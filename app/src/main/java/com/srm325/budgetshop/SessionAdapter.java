@@ -32,6 +32,7 @@ class SessionHolder extends RecyclerView.ViewHolder{
 
     }
 }
+//What am I doing
 
     @Override
     protected void onBindViewHolder(@NonNull SessionAdapter.SessionHolder holder, int position, @NonNull Product model) {
